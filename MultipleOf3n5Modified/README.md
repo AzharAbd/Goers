@@ -12,7 +12,7 @@ Find the sum of all the multiples of x or y below n
 ```
 py code.py
 ```
-4. Type 1000 as input and enter
+4. Type 3, 5, and 1000 as input and enter
 5. The result will be shown on command prompt
 
 ### For Linux
@@ -22,7 +22,7 @@ py code.py
 ```
 python code.py
 ```
-4. Type 1000 as input and enter
+4. Type 3, 5, and 1000 as input and enter
 5. The result will be shown on terminal
 
 ### For MacOS
@@ -32,5 +32,5 @@ python code.py
 ```
 python ./code.py
 ```
-4. Type 1000 as input and enter
+4. Type 3, 5, and 1000 as input and enter
 5. The result will be shown on terminal
