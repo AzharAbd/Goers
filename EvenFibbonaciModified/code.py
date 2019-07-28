@@ -2,7 +2,7 @@ def fibb(n, a, b, res):
   if (b % 2 == 0):
     res += b
     
-  if (n == 0):
+  if (b > n):
     return res
   else:
     return fibb(n-1, b, a+b, res)

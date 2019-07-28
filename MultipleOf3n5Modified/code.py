@@ -1,6 +1,6 @@
 def countSum(x, n):
   sum = 0
-  for i in range (n):
+  for i in range(n):
     sum += x * (i+1)
   return sum
 
@@ -17,7 +17,7 @@ def main():
   x = int(input("Enter first value: "))
   y = int(input("Enter second value: "))
   n = int(input("Enter n value: "))
-
+  n -= 1
   k = lcm(x, y)
   
   res = countSum(x, (n // x)) + countSum(y, (n // y)) - countSum(k, (n // k))

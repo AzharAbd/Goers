@@ -8,15 +8,15 @@ def lcm(a, b):
   return a * b // gcd(a, b)  
 
 def manyLCM(a, b, n):
-  if (n == 0):
+  if (n == b):
     return lcm(a, b)
   else:
-    return manyLCM(lcm(a, b), b + 1, n-1)
+    return manyLCM(lcm(a, b), b + 1, n)
 
 def main():
   x = int(input("Enter first value: "))
   y = int(input("Enter second value: "))
 
-  print(manyLCM(x, x+1, y-2))
+  print(manyLCM(x, x+1, y))
 
 main()
