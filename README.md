@@ -1,4 +1,5 @@
-# project-euler-solution
+# project-euler
+https://projecteuler.net/archives
 project euler solution using Python
 
 If you don't have Python already, follow these installation instructions
