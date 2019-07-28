@@ -16,7 +16,7 @@ Find the difference between the sum of the squares of number between x and y and
 ```
 py code.py
 ```
-4. Type 100 as input and enter
+4. Type 1 and 100 as input and enter
 5. The result will be shown on command prompt
 
 ### For Linux
@@ -26,7 +26,7 @@ py code.py
 ```
 python code.py
 ```
-4. Type 100 as input and enter
+4. Type 1 and 100 as input and enter
 5. The result will be shown on terminal
 
 ### For MacOS
@@ -36,5 +36,5 @@ python code.py
 ```
 python ./code.py
 ```
-4. Type 100 as input and enter
+4. Type 1 and 100 as input and enter
 5. The result will be shown on terminal
